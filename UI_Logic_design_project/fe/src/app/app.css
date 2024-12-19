@@ -1,0 +1,43 @@
+.before_temp {
+    position: absolute;
+    top: 15px;
+    left: 120px;
+}
+
+.after_temp {
+    position: absolute;
+    top: 19px;
+    left: 131px;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes typewriter {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.animate-slide-in {
+    animation: slide-in 1s ease-out forwards;
+}
+
+.animate-typewriter {
+    animation: typewriter 1.5s ease-out 0.5s forwards;
+    display: inline-block;
+    white-space: nowrap;
+}

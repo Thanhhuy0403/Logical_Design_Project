@@ -1,0 +1,5 @@
+sheduler.c:13:6:SCH_Init	4	static
+sheduler.c:17:6:SCH_Add_Task	24	static
+sheduler.c:31:6:SCH_Update	16	static
+sheduler.c:42:6:SCH_Dispatch_Tasks	16	static
+sheduler.c:51:6:SCH_Delete	32	static

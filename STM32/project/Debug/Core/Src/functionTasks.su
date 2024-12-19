@@ -1,0 +1,5 @@
+functionTasks.c:19:6:handleDisplay	24	static
+functionTasks.c:35:6:display_data	32	static
+functionTasks.c:67:6:sendDataFromSTMToESP	136	static
+functionTasks.c:83:6:ledBlinky	8	static
+functionTasks.c:87:6:RGBAuto	16	static
